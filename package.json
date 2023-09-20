@@ -7,14 +7,20 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.3.1",
+    "mysql": "^2.18.1",
     "pg": "^8.11.3"
   },
-  "scripts" : {
-    "start-connection" : "node index.js",
-    "task1" : "node tasks/task1",
-    "task2" : "node tasks/task2",
-    "task3" : "node tasks/task3",
-    "task4" : "node tasks/task4",
-    "task5" : "node tasks/task5"
+  "scripts": {
+    "start-connection": "node index.js",
+    "psql-task1": "node PSQL/tasks/task1",
+    "psql-task2": "node PSQL/tasks/task2",
+    "psql-task3": "node PSQL/tasks/task3",
+    "psql-task4": "node PSQL/tasks/task4",
+    "psql-task5": "node PSQL/tasks/task5",
+    "mysql-task1": "node MySQL/tasks/task1",
+    "mysql-task2": "node MySQL/tasks/task2",
+    "mysql-task3": "node MySQL/tasks/task3",
+    "mysql-task4": "node MySQL/tasks/task4",
+    "mysql-task5": "node MySQL/tasks/task5"
   }
 }

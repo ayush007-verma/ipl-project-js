@@ -1,5 +1,3 @@
---For the year 2015 get the top economical bowlers.
-
 
 select 
     d.bowler,

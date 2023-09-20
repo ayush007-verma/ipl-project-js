@@ -1,4 +1,3 @@
---Number of matches played per year of all the years in IPL.
 
 select 
     m.season,

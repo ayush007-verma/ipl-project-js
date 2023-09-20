@@ -1,4 +1,3 @@
--- Number of matches won of all teams over all the years of IPL.
 
 select 
     m.winner,

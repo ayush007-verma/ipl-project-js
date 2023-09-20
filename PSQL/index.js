@@ -13,11 +13,11 @@ require('dotenv').config()
 
 
 const client = new Client({
-    user: process.env.DB_USER,
-    host: process.env.DB_HOST,
-    database: process.env.DB_DATABASE,
-    password: process.env.DB_PASSWORD,
-    port: process.env.DB_PORT
+    user: process.env.PSQL_DB_USER,
+    host: process.env.PSQL_DB_HOST,
+    database: process.env.PSQL_DB_DATABASE,
+    password: process.env.PSQL_DB_PASSWORD,
+    port: process.env.PSQL_DB_PORT
 })
 
 // Using client to connect to psql database which will return a promise.

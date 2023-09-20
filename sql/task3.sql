@@ -1,4 +1,3 @@
--- For the year 2016 get the extra runs conceded per team.
 
 select 
     d.bowling_team,
